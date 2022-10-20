@@ -22,7 +22,6 @@ test('se são exibidos todos os cards de pokémons favoritados', () => {
   const linkMoreDetails = screen.getByRole('link', { name: /More details/i });
   userEvent.click(linkMoreDetails);
 
-  // const inputFavorite = screen.getByLabelText('Pokémon favoritado?');
   const checkbox = screen.getByRole('checkbox');
   userEvent.click(checkbox);
 
