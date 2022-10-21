@@ -36,7 +36,6 @@ class App extends Component {
   render() {
     const { isPokemonFavoriteById } = this.state;
     const favoritePokemons = pokemons.filter(({ id }) => isPokemonFavoriteById[id]);
-
     return (
       <div className="App">
         <h1>Pokédex</h1>
@@ -46,9 +45,9 @@ class App extends Component {
           <Link className="link" to="/favorites">{`Favorite Pokémons`}</Link>
         </nav>
         <Routes
-          favoritePokemons={ favoritePokemons }
-          pokemons={ pokemons }
-          isPokemonFavoriteById={ isPokemonFavoriteById }
+          favoritePokemons={favoritePokemons}
+          pokemons={pokemons}
+          isPokemonFavoriteById={isPokemonFavoriteById}
           onUpdateFavoritePokemons={
             (pokemonId, checked) => this.onUpdateFavoritePokemons(pokemonId, checked)
           }

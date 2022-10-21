@@ -24,18 +24,17 @@ class PokemonDetails extends React.Component {
 
     const pokemon = this.findPokemon(parseInt(id, 10));
     const isFavorite = isPokemonFavoriteById[id];
-
     return (
       <section className="pokemon-details">
-        <h2>{ `${pokemon.name} Details` }</h2>
+        <h2>{`${pokemon.name} Details`}</h2>
         <Pokemon
-          pokemon={ pokemon }
-          showDetailsLink={ false }
-          isFavorite={ isFavorite }
+          pokemon={pokemon}
+          showDetailsLink={false}
+          isFavorite={isFavorite}
         />
-        <PokemonData pokemon={ pokemon } />
+        <PokemonData pokemon={pokemon} />
         <FavoriteInput
-          isFavorite={ isFavorite }
+          isFavorite={isFavorite}
           onUpdateFavoritePokemons={
             (checked) => onUpdateFavoritePokemons(pokemon.id, checked)
           }
