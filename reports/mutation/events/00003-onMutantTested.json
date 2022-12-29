@@ -1,0 +1,1 @@
+{"fileName":"/home/priscila/Documentos/sd-025-b-project-react-testing-library/src/components/FavoriteInput.js","id":"2","location":{"start":{"column":14,"line":15},"end":{"column":76,"line":15}},"mutatorName":"ArrowFunction","replacement":"() => undefined","statusReason":"Ignored because of excluded mutation \"ArrowFunction\"","status":"Ignored","static":false}

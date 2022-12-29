@@ -1,0 +1,1 @@
+{"fileName":"/home/priscila/Documentos/sd-025-b-project-react-testing-library/src/pages/PokemonDetails.js","id":"20","location":{"start":{"column":12,"line":38},"end":{"column":70,"line":38}},"mutatorName":"ArrowFunction","replacement":"() => undefined","statusReason":"Ignored because of excluded mutation \"ArrowFunction\"","status":"Ignored","static":false}

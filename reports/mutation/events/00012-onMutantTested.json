@@ -1,0 +1,1 @@
+{"fileName":"/home/priscila/Documentos/sd-025-b-project-react-testing-library/src/pages/PokemonDetails.js","id":"16","location":{"start":{"column":37,"line":14},"end":{"column":51,"line":14}},"mutatorName":"EqualityOperator","replacement":"id !== givenId","statusReason":"Ignored because of excluded mutation \"EqualityOperator\"","status":"Ignored","static":false}
